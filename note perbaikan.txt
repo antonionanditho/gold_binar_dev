@@ -1,1 +1,0 @@
-Analisa dulu pakai jupyter notebook, baru pindah ke .py

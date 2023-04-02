@@ -1,0 +1,10 @@
+Analisa dulu pakai jupyter notebook, baru pindah ke .py
+
+NOTE:
+1) analisa.ipynb nya di lengkapi dulu ya mas sesuai clue yang udah dikasih
+2) dilatih lagi penulisan script dan pembacaan codenya mas. khususnya script proses cleansing nya di analisa.ipynb
+3) setelah clear di analisa.ipynb, baru pindahkan code yang udah fix ke api.py
+
+PR nya tinggal lengkapi file analisa.ipynb sesuai dengan clue yang dikasih
+refrensi code analisa data nya bisa dipelajari dan modifikasi di: 
+https://www.kaggle.com/code/ilhamfp31/preprocessing-the-indonesian-hate-abusive-text

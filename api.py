@@ -6,6 +6,8 @@ from flask import request
 from flasgger import Swagger, LazyString, LazyJSONEncoder
 from flasgger import swag_from
 
+app = Flask(__name__)
+
 # load data
 alay = pd.read_csv("new_kamusalay.csv", encoding="latin-1", names=("original","replacement"))
 abusive = pd.read_csv("abusive.csv", names=("stopword"))
