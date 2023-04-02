@@ -89,6 +89,20 @@ def preprocess(text):
     return text
 
 """Review: Good! response data nya udah nerapin fungsi preprocess(text)"""
+#endpoint buat ngenalin aplikasi
+@swag_from("docs/landingpage.yml", methods=['GET'])
+@app.route('/', methods=['GET'])
+def hello_world():
+    json_response = {
+        'status_code': 200,
+        'description': "DISINI KASIH JUDUL APLIKASI SESUAI REPORT",
+        'data': "Binar Academy - Nama - DSC 7",
+    }
+
+    response_data = jsonify(json_response)
+    return response_data
+
+
 # endpoint pertama
 @swag_from("docs/text_processing.yml", methods=['POST'])
 @app.route('/text-processing', methods=['POST'])

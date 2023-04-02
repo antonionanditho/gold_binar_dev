@@ -1,7 +1,7 @@
 tags:
-  - name: Hello World
+  - name: KASIH NAMA JUDUL CHALLANGE
 get:
-  description: Menyapa Hello World
+  description: BINAR ACADEMY - NAMA - DSC WAVE 7
 responses:
     '200':
       description: Successful response
